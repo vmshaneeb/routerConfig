@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,24 @@
 		6576B6C224DC901400AA937A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6576B6C124DC901400AA937A /* Preview Assets.xcassets */; };
 		6576B6CE24DC901500AA937A /* routerConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6576B6CD24DC901500AA937A /* routerConfigTests.swift */; };
 		6576B6D924DC901500AA937A /* routerConfigUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6576B6D824DC901500AA937A /* routerConfigUITests.swift */; };
+		6582485C24EE7FDF00347118 /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = 6582485B24EE7FDF00347118 /* BetterSafariView */; };
+		65D77CCB24E8798E00941BA1 /* routerConfigiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D77CCA24E8798E00941BA1 /* routerConfigiOSApp.swift */; };
+		65D77CCD24E8798E00941BA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D77CCC24E8798E00941BA1 /* ContentView.swift */; };
+		65D77CCF24E8799900941BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D77CCE24E8799900941BA1 /* Assets.xcassets */; };
+		65D77CD224E8799900941BA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D77CD124E8799900941BA1 /* Preview Assets.xcassets */; };
+		65D77CDD24E8799A00941BA1 /* routerConfigiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D77CDC24E8799A00941BA1 /* routerConfigiOSTests.swift */; };
+		65D77CE824E8799A00941BA1 /* routerConfigiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D77CE724E8799A00941BA1 /* routerConfigiOSUITests.swift */; };
+		65D77CF924E94E0D00941BA1 /* routerConfigwatchOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 65D77CF824E94E0D00941BA1 /* routerConfigwatchOS WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		65D77CFE24E94E1500941BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D77CFD24E94E1500941BA1 /* Assets.xcassets */; };
+		65D77D0524E94E1500941BA1 /* routerConfigwatchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 65D77D0424E94E1500941BA1 /* routerConfigwatchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		65D77D0A24E94E1500941BA1 /* routerConfigApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D77D0924E94E1500941BA1 /* routerConfigApp.swift */; };
+		65D77D0C24E94E1500941BA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D77D0B24E94E1500941BA1 /* ContentView.swift */; };
+		65D77D0E24E94E1500941BA1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D77D0D24E94E1500941BA1 /* NotificationController.swift */; };
+		65D77D1024E94E1500941BA1 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D77D0F24E94E1500941BA1 /* NotificationView.swift */; };
+		65D77D1224E94E1500941BA1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D77D1124E94E1500941BA1 /* ComplicationController.swift */; };
+		65D77D1424E94E1900941BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D77D1324E94E1900941BA1 /* Assets.xcassets */; };
+		65D77D1724E94E1900941BA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D77D1624E94E1900941BA1 /* Preview Assets.xcassets */; };
+		65FFAEED24EF043E00800A91 /* FGRoute in Frameworks */ = {isa = PBXBuildFile; productRef = 65FFAEEC24EF043E00800A91 /* FGRoute */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +48,60 @@
 			remoteGlobalIDString = 6576B6B624DC901100AA937A;
 			remoteInfo = routerConfig;
 		};
+		65D77CD924E8799A00941BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6576B6AF24DC901100AA937A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D77CC724E8798E00941BA1;
+			remoteInfo = routerConfigiOS;
+		};
+		65D77CE424E8799A00941BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6576B6AF24DC901100AA937A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D77CC724E8798E00941BA1;
+			remoteInfo = routerConfigiOS;
+		};
+		65D77CFA24E94E0D00941BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6576B6AF24DC901100AA937A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D77CF724E94E0D00941BA1;
+			remoteInfo = "routerConfigwatchOS WatchKit App";
+		};
+		65D77D0624E94E1500941BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6576B6AF24DC901100AA937A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D77D0324E94E1500941BA1;
+			remoteInfo = "routerConfigwatchOS WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65D77D1C24E94E1900941BA1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				65D77CF924E94E0D00941BA1 /* routerConfigwatchOS WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D77D1F24E94E1900941BA1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				65D77D0524E94E1500941BA1 /* routerConfigwatchOS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6576B6B724DC901200AA937A /* routerConfig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = routerConfig.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +117,32 @@
 		6576B6D424DC901500AA937A /* routerConfigUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = routerConfigUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6576B6D824DC901500AA937A /* routerConfigUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routerConfigUITests.swift; sourceTree = "<group>"; };
 		6576B6DA24DC901500AA937A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D77CC824E8798E00941BA1 /* routerConfigiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = routerConfigiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D77CCA24E8798E00941BA1 /* routerConfigiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routerConfigiOSApp.swift; sourceTree = "<group>"; };
+		65D77CCC24E8798E00941BA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		65D77CCE24E8799900941BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D77CD124E8799900941BA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65D77CD324E8799900941BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D77CD824E8799A00941BA1 /* routerConfigiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = routerConfigiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D77CDC24E8799A00941BA1 /* routerConfigiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routerConfigiOSTests.swift; sourceTree = "<group>"; };
+		65D77CDE24E8799A00941BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D77CE324E8799A00941BA1 /* routerConfigiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = routerConfigiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D77CE724E8799A00941BA1 /* routerConfigiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routerConfigiOSUITests.swift; sourceTree = "<group>"; };
+		65D77CE924E8799A00941BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D77CF524E94E0C00941BA1 /* routerConfigwatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = routerConfigwatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D77CF824E94E0D00941BA1 /* routerConfigwatchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "routerConfigwatchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D77CFD24E94E1500941BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D77CFF24E94E1500941BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D77D0424E94E1500941BA1 /* routerConfigwatchOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "routerConfigwatchOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D77D0924E94E1500941BA1 /* routerConfigApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routerConfigApp.swift; sourceTree = "<group>"; };
+		65D77D0B24E94E1500941BA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		65D77D0D24E94E1500941BA1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		65D77D0F24E94E1500941BA1 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		65D77D1124E94E1500941BA1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		65D77D1324E94E1900941BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D77D1624E94E1900941BA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65D77D1824E94E1900941BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D77D1924E94E1900941BA1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +150,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6582485C24EE7FDF00347118 /* BetterSafariView in Frameworks */,
+				65FFAEED24EF043E00800A91 /* FGRoute in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +169,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65D77CC524E8798E00941BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D77CD524E8799A00941BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D77CE024E8799A00941BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D77D0124E94E1500941BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4EEB4E06B57B7FBC259DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BC31C63B9EA3A3614E95BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +220,11 @@
 				6576B6B924DC901200AA937A /* routerConfig */,
 				6576B6CC24DC901500AA937A /* routerConfigTests */,
 				6576B6D724DC901500AA937A /* routerConfigUITests */,
+				65D77CC924E8798E00941BA1 /* routerConfigiOS */,
+				65D77CDB24E8799A00941BA1 /* routerConfigiOSTests */,
+				65D77CE624E8799A00941BA1 /* routerConfigiOSUITests */,
+				65D77CFC24E94E0D00941BA1 /* routerConfigwatchOS WatchKit App */,
+				65D77D0824E94E1500941BA1 /* routerConfigwatchOS WatchKit Extension */,
 				6576B6B824DC901200AA937A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +235,12 @@
 				6576B6B724DC901200AA937A /* routerConfig.app */,
 				6576B6C924DC901500AA937A /* routerConfigTests.xctest */,
 				6576B6D424DC901500AA937A /* routerConfigUITests.xctest */,
+				65D77CC824E8798E00941BA1 /* routerConfigiOS.app */,
+				65D77CD824E8799A00941BA1 /* routerConfigiOSTests.xctest */,
+				65D77CE324E8799A00941BA1 /* routerConfigiOSUITests.xctest */,
+				65D77CF524E94E0C00941BA1 /* routerConfigwatchOS.app */,
+				65D77CF824E94E0D00941BA1 /* routerConfigwatchOS WatchKit App.app */,
+				65D77D0424E94E1500941BA1 /* routerConfigwatchOS WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +284,77 @@
 			path = routerConfigUITests;
 			sourceTree = "<group>";
 		};
+		65D77CC924E8798E00941BA1 /* routerConfigiOS */ = {
+			isa = PBXGroup;
+			children = (
+				65D77CCA24E8798E00941BA1 /* routerConfigiOSApp.swift */,
+				65D77CCC24E8798E00941BA1 /* ContentView.swift */,
+				65D77CCE24E8799900941BA1 /* Assets.xcassets */,
+				65D77CD324E8799900941BA1 /* Info.plist */,
+				65D77CD024E8799900941BA1 /* Preview Content */,
+			);
+			path = routerConfigiOS;
+			sourceTree = "<group>";
+		};
+		65D77CD024E8799900941BA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				65D77CD124E8799900941BA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65D77CDB24E8799A00941BA1 /* routerConfigiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				65D77CDC24E8799A00941BA1 /* routerConfigiOSTests.swift */,
+				65D77CDE24E8799A00941BA1 /* Info.plist */,
+			);
+			path = routerConfigiOSTests;
+			sourceTree = "<group>";
+		};
+		65D77CE624E8799A00941BA1 /* routerConfigiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65D77CE724E8799A00941BA1 /* routerConfigiOSUITests.swift */,
+				65D77CE924E8799A00941BA1 /* Info.plist */,
+			);
+			path = routerConfigiOSUITests;
+			sourceTree = "<group>";
+		};
+		65D77CFC24E94E0D00941BA1 /* routerConfigwatchOS WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				65D77CFD24E94E1500941BA1 /* Assets.xcassets */,
+				65D77CFF24E94E1500941BA1 /* Info.plist */,
+			);
+			path = "routerConfigwatchOS WatchKit App";
+			sourceTree = "<group>";
+		};
+		65D77D0824E94E1500941BA1 /* routerConfigwatchOS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				65D77D0924E94E1500941BA1 /* routerConfigApp.swift */,
+				65D77D0B24E94E1500941BA1 /* ContentView.swift */,
+				65D77D0D24E94E1500941BA1 /* NotificationController.swift */,
+				65D77D0F24E94E1500941BA1 /* NotificationView.swift */,
+				65D77D1124E94E1500941BA1 /* ComplicationController.swift */,
+				65D77D1324E94E1900941BA1 /* Assets.xcassets */,
+				65D77D1824E94E1900941BA1 /* Info.plist */,
+				65D77D1924E94E1900941BA1 /* PushNotificationPayload.apns */,
+				65D77D1524E94E1900941BA1 /* Preview Content */,
+			);
+			path = "routerConfigwatchOS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		65D77D1524E94E1900941BA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				65D77D1624E94E1900941BA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,6 +371,10 @@
 			dependencies = (
 			);
 			name = routerConfig;
+			packageProductDependencies = (
+				6582485B24EE7FDF00347118 /* BetterSafariView */,
+				65FFAEEC24EF043E00800A91 /* FGRoute */,
+			);
 			productName = routerConfig;
 			productReference = 6576B6B724DC901200AA937A /* routerConfig.app */;
 			productType = "com.apple.product-type.application";
@@ -188,6 +415,112 @@
 			productReference = 6576B6D424DC901500AA937A /* routerConfigUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		65D77CC724E8798E00941BA1 /* routerConfigiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D77CEA24E8799A00941BA1 /* Build configuration list for PBXNativeTarget "routerConfigiOS" */;
+			buildPhases = (
+				65D77CC424E8798E00941BA1 /* Sources */,
+				65D77CC524E8798E00941BA1 /* Frameworks */,
+				65D77CC624E8798E00941BA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = routerConfigiOS;
+			productName = routerConfigiOS;
+			productReference = 65D77CC824E8798E00941BA1 /* routerConfigiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65D77CD724E8799A00941BA1 /* routerConfigiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D77CED24E8799A00941BA1 /* Build configuration list for PBXNativeTarget "routerConfigiOSTests" */;
+			buildPhases = (
+				65D77CD424E8799A00941BA1 /* Sources */,
+				65D77CD524E8799A00941BA1 /* Frameworks */,
+				65D77CD624E8799A00941BA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65D77CDA24E8799A00941BA1 /* PBXTargetDependency */,
+			);
+			name = routerConfigiOSTests;
+			productName = routerConfigiOSTests;
+			productReference = 65D77CD824E8799A00941BA1 /* routerConfigiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65D77CE224E8799A00941BA1 /* routerConfigiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D77CF024E8799A00941BA1 /* Build configuration list for PBXNativeTarget "routerConfigiOSUITests" */;
+			buildPhases = (
+				65D77CDF24E8799A00941BA1 /* Sources */,
+				65D77CE024E8799A00941BA1 /* Frameworks */,
+				65D77CE124E8799A00941BA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65D77CE524E8799A00941BA1 /* PBXTargetDependency */,
+			);
+			name = routerConfigiOSUITests;
+			productName = routerConfigiOSUITests;
+			productReference = 65D77CE324E8799A00941BA1 /* routerConfigiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		65D77CF424E94E0C00941BA1 /* routerConfigwatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D77D2424E94E1900941BA1 /* Build configuration list for PBXNativeTarget "routerConfigwatchOS" */;
+			buildPhases = (
+				65D77CF324E94E0C00941BA1 /* Resources */,
+				65D77D1C24E94E1900941BA1 /* Embed Watch Content */,
+				B3BC31C63B9EA3A3614E95BA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65D77CFB24E94E0D00941BA1 /* PBXTargetDependency */,
+			);
+			name = routerConfigwatchOS;
+			productName = routerConfigwatchOS;
+			productReference = 65D77CF524E94E0C00941BA1 /* routerConfigwatchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		65D77CF724E94E0D00941BA1 /* routerConfigwatchOS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D77D2324E94E1900941BA1 /* Build configuration list for PBXNativeTarget "routerConfigwatchOS WatchKit App" */;
+			buildPhases = (
+				65D77CF624E94E0D00941BA1 /* Resources */,
+				65D77D1F24E94E1900941BA1 /* Embed App Extensions */,
+				7E4EEB4E06B57B7FBC259DBC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65D77D0724E94E1500941BA1 /* PBXTargetDependency */,
+			);
+			name = "routerConfigwatchOS WatchKit App";
+			productName = "routerConfigwatchOS WatchKit App";
+			productReference = 65D77CF824E94E0D00941BA1 /* routerConfigwatchOS WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		65D77D0324E94E1500941BA1 /* routerConfigwatchOS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D77D2224E94E1900941BA1 /* Build configuration list for PBXNativeTarget "routerConfigwatchOS WatchKit Extension" */;
+			buildPhases = (
+				65D77D0024E94E1500941BA1 /* Sources */,
+				65D77D0124E94E1500941BA1 /* Frameworks */,
+				65D77D0224E94E1500941BA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "routerConfigwatchOS WatchKit Extension";
+			productName = "routerConfigwatchOS WatchKit Extension";
+			productReference = 65D77D0424E94E1500941BA1 /* routerConfigwatchOS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,6 +541,26 @@
 						CreatedOnToolsVersion = 12.0;
 						TestTargetID = 6576B6B624DC901100AA937A;
 					};
+					65D77CC724E8798E00941BA1 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					65D77CD724E8799A00941BA1 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 65D77CC724E8798E00941BA1;
+					};
+					65D77CE224E8799A00941BA1 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 65D77CC724E8798E00941BA1;
+					};
+					65D77CF424E94E0C00941BA1 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					65D77CF724E94E0D00941BA1 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					65D77D0324E94E1500941BA1 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 				};
 			};
 			buildConfigurationList = 6576B6B224DC901100AA937A /* Build configuration list for PBXProject "routerConfig" */;
@@ -219,6 +572,10 @@
 				Base,
 			);
 			mainGroup = 6576B6AE24DC901100AA937A;
+			packageReferences = (
+				6582485A24EE7FDF00347118 /* XCRemoteSwiftPackageReference "BetterSafariView" */,
+				65FFAEEB24EF043E00800A91 /* XCRemoteSwiftPackageReference "FGRoute" */,
+			);
 			productRefGroup = 6576B6B824DC901200AA937A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -226,6 +583,12 @@
 				6576B6B624DC901100AA937A /* routerConfig */,
 				6576B6C824DC901500AA937A /* routerConfigTests */,
 				6576B6D324DC901500AA937A /* routerConfigUITests */,
+				65D77CC724E8798E00941BA1 /* routerConfigiOS */,
+				65D77CD724E8799A00941BA1 /* routerConfigiOSTests */,
+				65D77CE224E8799A00941BA1 /* routerConfigiOSUITests */,
+				65D77CF424E94E0C00941BA1 /* routerConfigwatchOS */,
+				65D77CF724E94E0D00941BA1 /* routerConfigwatchOS WatchKit App */,
+				65D77D0324E94E1500941BA1 /* routerConfigwatchOS WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -251,6 +614,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D77CC624E8798E00941BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D77CD224E8799900941BA1 /* Preview Assets.xcassets in Resources */,
+				65D77CCF24E8799900941BA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D77CD624E8799A00941BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D77CE124E8799A00941BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D77CF324E94E0C00941BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D77CF624E94E0D00941BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D77CFE24E94E1500941BA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D77D0224E94E1500941BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D77D1724E94E1900941BA1 /* Preview Assets.xcassets in Resources */,
+				65D77D1424E94E1900941BA1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +692,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65D77CC424E8798E00941BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D77CCD24E8798E00941BA1 /* ContentView.swift in Sources */,
+				65D77CCB24E8798E00941BA1 /* routerConfigiOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D77CD424E8799A00941BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D77CDD24E8799A00941BA1 /* routerConfigiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D77CDF24E8799A00941BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D77CE824E8799A00941BA1 /* routerConfigiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D77D0024E94E1500941BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D77D0E24E94E1500941BA1 /* NotificationController.swift in Sources */,
+				65D77D0C24E94E1500941BA1 /* ContentView.swift in Sources */,
+				65D77D1224E94E1500941BA1 /* ComplicationController.swift in Sources */,
+				65D77D0A24E94E1500941BA1 /* routerConfigApp.swift in Sources */,
+				65D77D1024E94E1500941BA1 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -294,6 +741,26 @@
 			isa = PBXTargetDependency;
 			target = 6576B6B624DC901100AA937A /* routerConfig */;
 			targetProxy = 6576B6D524DC901500AA937A /* PBXContainerItemProxy */;
+		};
+		65D77CDA24E8799A00941BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65D77CC724E8798E00941BA1 /* routerConfigiOS */;
+			targetProxy = 65D77CD924E8799A00941BA1 /* PBXContainerItemProxy */;
+		};
+		65D77CE524E8799A00941BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65D77CC724E8798E00941BA1 /* routerConfigiOS */;
+			targetProxy = 65D77CE424E8799A00941BA1 /* PBXContainerItemProxy */;
+		};
+		65D77CFB24E94E0D00941BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65D77CF724E94E0D00941BA1 /* routerConfigwatchOS WatchKit App */;
+			targetProxy = 65D77CFA24E94E0D00941BA1 /* PBXContainerItemProxy */;
+		};
+		65D77D0724E94E1500941BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65D77D0324E94E1500941BA1 /* routerConfigwatchOS WatchKit Extension */;
+			targetProxy = 65D77D0624E94E1500941BA1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -419,10 +886,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = routerConfig/routerConfig.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"routerConfig/Preview Content\"";
-				DEVELOPMENT_TEAM = 82NH72EESN;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = routerConfig/Info.plist;
@@ -443,10 +911,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = routerConfig/routerConfig.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"routerConfig/Preview Content\"";
-				DEVELOPMENT_TEAM = 82NH72EESN;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = routerConfig/Info.plist;
@@ -545,6 +1014,264 @@
 			};
 			name = Release;
 		};
+		65D77CEB24E8799A00941BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"routerConfigiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 82NH72EESN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = routerConfigiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vmshaneeb.routerConfigiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65D77CEC24E8799A00941BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"routerConfigiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 82NH72EESN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = routerConfigiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vmshaneeb.routerConfigiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65D77CEE24E8799A00941BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82NH72EESN;
+				INFOPLIST_FILE = routerConfigiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vmshaneeb.routerConfigiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/routerConfigiOS.app/routerConfigiOS";
+			};
+			name = Debug;
+		};
+		65D77CEF24E8799A00941BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82NH72EESN;
+				INFOPLIST_FILE = routerConfigiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vmshaneeb.routerConfigiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/routerConfigiOS.app/routerConfigiOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65D77CF124E8799A00941BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82NH72EESN;
+				INFOPLIST_FILE = routerConfigiOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vmshaneeb.routerConfigiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = routerConfigiOS;
+			};
+			name = Debug;
+		};
+		65D77CF224E8799A00941BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82NH72EESN;
+				INFOPLIST_FILE = routerConfigiOSUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vmshaneeb.routerConfigiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = routerConfigiOS;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65D77D1A24E94E1900941BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82NH72EESN;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vmshaneeb.routerConfigwatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		65D77D1B24E94E1900941BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82NH72EESN;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vmshaneeb.routerConfigwatchOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65D77D1D24E94E1900941BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KPPT254TP;
+				IBSC_MODULE = routerConfigwatchOS_WatchKit_Extension;
+				INFOPLIST_FILE = "routerConfigwatchOS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = vmshaneeb.routerConfigwatchOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		65D77D1E24E94E1900941BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KPPT254TP;
+				IBSC_MODULE = routerConfigwatchOS_WatchKit_Extension;
+				INFOPLIST_FILE = "routerConfigwatchOS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = vmshaneeb.routerConfigwatchOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		65D77D2024E94E1900941BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"routerConfigwatchOS WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 82NH72EESN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "routerConfigwatchOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vmshaneeb.routerConfigwatchOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		65D77D2124E94E1900941BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"routerConfigwatchOS WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 82NH72EESN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "routerConfigwatchOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vmshaneeb.routerConfigwatchOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -584,7 +1311,93 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		65D77CEA24E8799A00941BA1 /* Build configuration list for PBXNativeTarget "routerConfigiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D77CEB24E8799A00941BA1 /* Debug */,
+				65D77CEC24E8799A00941BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D77CED24E8799A00941BA1 /* Build configuration list for PBXNativeTarget "routerConfigiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D77CEE24E8799A00941BA1 /* Debug */,
+				65D77CEF24E8799A00941BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D77CF024E8799A00941BA1 /* Build configuration list for PBXNativeTarget "routerConfigiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D77CF124E8799A00941BA1 /* Debug */,
+				65D77CF224E8799A00941BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D77D2224E94E1900941BA1 /* Build configuration list for PBXNativeTarget "routerConfigwatchOS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D77D2024E94E1900941BA1 /* Debug */,
+				65D77D2124E94E1900941BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D77D2324E94E1900941BA1 /* Build configuration list for PBXNativeTarget "routerConfigwatchOS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D77D1D24E94E1900941BA1 /* Debug */,
+				65D77D1E24E94E1900941BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D77D2424E94E1900941BA1 /* Build configuration list for PBXNativeTarget "routerConfigwatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D77D1A24E94E1900941BA1 /* Debug */,
+				65D77D1B24E94E1900941BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6582485A24EE7FDF00347118 /* XCRemoteSwiftPackageReference "BetterSafariView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stleamist/BetterSafariView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		65FFAEEB24EF043E00800A91 /* XCRemoteSwiftPackageReference "FGRoute" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vmshaneeb/FGRoute.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6582485B24EE7FDF00347118 /* BetterSafariView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6582485A24EE7FDF00347118 /* XCRemoteSwiftPackageReference "BetterSafariView" */;
+			productName = BetterSafariView;
+		};
+		65FFAEEC24EF043E00800A91 /* FGRoute */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65FFAEEB24EF043E00800A91 /* XCRemoteSwiftPackageReference "FGRoute" */;
+			productName = FGRoute;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6576B6AF24DC901100AA937A /* Project object */;
 }
